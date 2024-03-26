@@ -23,6 +23,7 @@ function Portfolio() {
           </Link>
         </div>
       </nav>
+      <Footer />
     </div>
   );
 }
