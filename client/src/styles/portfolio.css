@@ -1,0 +1,8 @@
+.portfolio-images img {
+    transition: transform 0.3s ease; /* Adjust the duration as needed */
+  }
+  
+  .portfolio-images img:hover {
+    transform: scale(1.1);
+  }
+  

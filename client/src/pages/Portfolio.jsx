@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
+import "../styles/portfolio.css";
 
 function Portfolio() {
   return (
@@ -23,35 +24,22 @@ function Portfolio() {
           </Link>
         </div>
       </nav>
-      <div className="flex flex-col gap-10 bg-purple-800 text-white">
-        <div className="text-3xl m-5">3D-Renders</div>
-        <div>
-          <img
-            src="/upscale2.png"
-            className="ml-10 w-3/5 float-left rounded-lg"
-          />
-          <div className="w-2/5">rgr</div>
+      <div className="bg-purple-800 text-white p-5">
+        <div className="text-3xl ml-8 my-5 font-extrabold">3D-Renders</div>
+        <div className="grid grid-cols-3 mx-8 gap-6 portfolio-images">
+          <img className="rounded-lg" src="/upscale4.png" alt="render 1" />
+          <img className="rounded-lg" src="/upscale2.png" alt="render 1" />
+          <img className="rounded-lg" src="/upscale1.png" alt="render 1" />
+          <img className="rounded-lg" src="/upscale1.1.png" alt="render 1" />
         </div>
-        <div>
-          <img
-            src="/work_3.jpg"
-            className="ml-10 w-3/5 float-left rounded-lg"
-          />
-          <div className="w-2/5">rgr</div>
+        <div className="text-3xl ml-8 my-5 font-extrabold">Web Designs</div>
+        <div className="text-3xl ml-8 my-5 font-extrabold">
+          Web Dev Projects
         </div>
-        <div>
-          <img
-            src="/work_1.1.jpg"
-            className="ml-10 w-2/5 float-left rounded-lg"
-          />
-          <div className="w-3/5">rgr</div>
-        </div>
-        <div>
-          <img
-            src="/work_1.2.jpg"
-            className="ml-10 w-2/5 float-left rounded-lg"
-          />
-          <div className="w-3/5">rgr</div>
+        <div className="grid grid-cols-3 gap-6 mx-8 portfolio-images">
+          <Link to="/">
+            <img src="/portfolio.jpeg" className="rounded-lg" />
+          </Link>
         </div>
       </div>
       <Footer />
