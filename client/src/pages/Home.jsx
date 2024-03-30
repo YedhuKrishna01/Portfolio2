@@ -21,9 +21,6 @@ function Home() {
           <Link to="/portfolio" className="px-2">
             Portfolio
           </Link>
-          <Link to="/contact" className="px-2">
-            Contact
-          </Link>
         </div>
       </nav>
       <div className="grid grid-cols-2">

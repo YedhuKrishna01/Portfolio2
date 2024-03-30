@@ -19,9 +19,6 @@ function Portfolio() {
           <Link to="/portfolio" className="px-2 border-b-2 border-purple-800">
             Portfolio
           </Link>
-          <Link to="/contact" className="px-2">
-            Contact
-          </Link>
         </div>
       </nav>
       <div className="bg-purple-800 text-white p-5">
@@ -33,6 +30,9 @@ function Portfolio() {
           <img className="rounded-lg" src="/upscale1.1.png" alt="render 1" />
         </div>
         <div className="text-3xl ml-8 my-5 font-extrabold">Web Designs</div>
+        <div className="grid grid-cols-3 gap-6 mx-8 portfolio-images">
+          <img src="/blog.jpeg" className="rounded-lg h-52 w-[22rem]" />
+        </div>
         <div className="text-3xl ml-8 my-5 font-extrabold">
           Web Dev Projects
         </div>
