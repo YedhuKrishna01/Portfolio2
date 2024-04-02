@@ -7,7 +7,7 @@ function Home() {
 
   return (
     <div>
-      <nav className="h-32 grid grid-cols-2">
+      <nav className="h-32 grid grid-cols-2 fixed top-0 left-0 w-full bg-purple-100">
         <div className="flex items-center text-lg ps-10 pt-3 font-bold text-black rounded-tr-lg">
           <span className="bg-black text-white pl-2 rounded-3xl w-9 p-1 mr-[0.05rem]">
             YK
@@ -23,7 +23,7 @@ function Home() {
           </Link>
         </div>
       </nav>
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-2 mt-40">
         <div className="text-xl p-10">
           Hello,
           <div className="text-3xl font-extrabold text-black">

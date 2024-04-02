@@ -5,7 +5,7 @@ import "../styles/portfolio.css";
 function Portfolio() {
   return (
     <div>
-      <nav className="h-32 grid grid-cols-2">
+      <nav className="h-32 grid grid-cols-2 fixed top-0 left-0 w-full bg-purple-100">
         <div className="flex items-center text-lg ps-10 pt-3 font-bold text-black rounded-tr-lg">
           <span className="bg-black text-white pl-2 rounded-3xl w-9 p-1 mr-[0.05rem]">
             YK
@@ -21,7 +21,7 @@ function Portfolio() {
           </Link>
         </div>
       </nav>
-      <div className="bg-purple-800 text-white p-5">
+      <div className="bg-purple-800 text-white p-5 mt-32">
         <div className="text-3xl ml-8 my-5 font-extrabold">3D-Renders</div>
         <div className="grid grid-cols-3 mx-8 gap-6 portfolio-images">
           <img className="rounded-lg" src="/upscale4.png" alt="render 1" />
@@ -32,6 +32,7 @@ function Portfolio() {
         <div className="text-3xl ml-8 my-5 font-extrabold">Web Designs</div>
         <div className="grid grid-cols-3 gap-6 mx-8 portfolio-images">
           <img src="/blog.jpeg" className="rounded-lg h-52 w-[22rem]" />
+          <img src="/knowit.jpeg" className="rounded-lg h-52 w-[22rem]" />
         </div>
         <div className="text-3xl ml-8 my-5 font-extrabold">
           Web Dev Projects
