@@ -7,3 +7,45 @@
     @apply bg-purple-100;
   }
 }
+
+@media (max-width:1150px) and (min-width:1000px) {
+  .aboutCol {
+    @apply w-[40rem]
+  }
+  .aboutPic {
+    @apply ml-40
+  }
+  .mainPic{
+    @apply mr-14
+  }
+}
+
+@media (max-width:1289px) and (min-width:1233px) {
+  .aboutCol {
+    @apply w-[40rem]
+  }
+  .aboutPic {
+    @apply ml-16
+  }
+  .mainPic{
+    @apply mr-10
+  }
+}
+
+@media (max-width:1499px) and (min-width:1290px) {
+  .aboutCol {
+    @apply w-[48rem] text-[19px]
+  }
+  .aboutPic {
+    @apply ml-44
+  }
+}
+
+@media (min-width:1500px) {
+  .aboutCol {
+    @apply w-[63rem] text-[21px]
+  }
+  .aboutPic {
+    @apply ml-80
+  }
+}

@@ -7,7 +7,7 @@ function Home() {
 
   return (
     <div>
-      <nav className="h-32 grid grid-cols-2 fixed top-0 left-0 w-full bg-purple-100">
+      <nav className="h-32 grid grid-cols-2 fixed z-20 top-0 left-0 w-full bg-purple-100">
         <div className="flex items-center text-lg ps-10 pt-3 font-bold text-black rounded-tr-lg">
           <span className="bg-black text-white pl-2 rounded-3xl w-9 p-1 mr-[0.05rem]">
             YK
@@ -58,16 +58,16 @@ function Home() {
         </div>
         <div className="flex justify-center">
           <img
-            className="h-[35rem] rounded-t-[6rem] rounded-b-xl"
+            className="h-[35rem] rounded-t-[6rem] rounded-b-xl mainPic"
             src="/main.avif"
           />
         </div>
       </div>
 
       <div className="mt-20 p-12 grid grid-cols-2 bg-purple-800 text-white">
-        <div className="p-5 bg-purple-900 hover:animate-[subtle_1s_ease-in-out_infinite] rounded-lg shadow-xl">
+        <div className="px-5 py-3 bg-purple-900 h-[13.5rem] w-[35rem] hover:animate-[subtle_1s_ease-in-out_infinite] rounded-lg shadow-xl aboutCol">
           <div className="text-3xl underline underline-offset-4">About Me</div>
-          <div className="mt-3">
+          <div className="pt-2">
             Professionally connected with the web development industry. Problem
             solver, always interested to learn new things, loyal employee with
             high attention to detail.
@@ -78,8 +78,8 @@ function Home() {
           </div>
         </div>
         <div className="flex justify-center">
-          <div className="p-5 border-2 border-purple-900 hover:animate-[subtle_1s_ease-in-out_infinite] bg-purple-900 rounded-lg shadow-xl">
-            <img src="/mypic.jpg" className="h-48 rounded-lg" />
+          <div className="p-5 border-2 border-purple-900 hover:animate-[subtle_1s_ease-in-out_infinite] bg-purple-900 rounded-lg shadow-xl aboutPic">
+            <img src="/mypic.jpg" className="h-44 rounded-lg" />
           </div>
         </div>
         <div className="col-span-2 rounded-lg hover:animate-[subtle_1s_ease-in-out_infinite] bg-purple-900 mt-10 p-5 shadow-xl">
