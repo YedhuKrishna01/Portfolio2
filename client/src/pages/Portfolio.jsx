@@ -25,14 +25,15 @@ function Portfolio() {
         <div className="text-3xl ml-8 my-5 font-extrabold">3D-Renders</div>
         <div className="grid grid-cols-3 mx-8 gap-6 portfolio-images">
           <img className="rounded-lg" src="/upscale4.png" alt="render 1" />
-          <img className="rounded-lg" src="/upscale2.png" alt="render 1" />
-          <img className="rounded-lg" src="/upscale1.png" alt="render 1" />
-          <img className="rounded-lg" src="/upscale1.1.png" alt="render 1" />
+          <img className="rounded-lg" src="/upscale2.png" alt="render 2" />
+          <img className="rounded-lg" src="/upscale1.png" alt="render 3" />
+          <img className="rounded-lg" src="/upscale1.1.png" alt="render 4" />
         </div>
         <div className="text-3xl ml-8 my-5 font-extrabold">Web Designs</div>
         <div className="grid grid-cols-3 gap-6 mx-8 portfolio-images">
           <img src="/blog.jpeg" className="rounded-lg h-52 w-[22rem]" />
           <img src="/knowit.jpeg" className="rounded-lg h-52 w-[22rem]" />
+          <img src="/codeit.jpeg" className="rounded-lg h-52 w-[22rem]" />
         </div>
         <div className="text-3xl ml-8 my-5 font-extrabold">
           Web Dev Projects
